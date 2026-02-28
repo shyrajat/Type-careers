@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply | Constructive Reach</title>
+    <style>
+        :root { --primary: #00ffcc; --bg: #0a192f; --card: #112240; }
+        body { font-family: sans-serif; background: var(--bg); color: white; display: flex; justify-content: center; min-height: 100vh; margin: 0; padding: 20px; }
+        .card { background: var(--card); padding: 30px; border-radius: 15px; border: 1px solid var(--primary); max-width: 400px; width: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        h2 { color: var(--primary); text-align: center; margin-top: 0; text-transform: uppercase; }
+        .label { display: block; margin-bottom: 5px; font-size: 12px; color: var(--primary); font-weight: bold; }
+        input { width: 100%; padding: 12px; background: #0a192f; border: 1px solid #233554; border-radius: 5px; color: white; box-sizing: border-box; margin-bottom: 15px; }
+        .btn { width: 100%; padding: 15px; background: var(--primary); color: #0a192f; font-weight: bold; border: none; border-radius: 5px; cursor: pointer; }
+        .footer { margin-top: 25px; font-size: 11px; text-align: center; color: #8892b0; border-top: 1px solid #233554; padding-top: 15px; }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h2>Apply Now</h2>
+    <p style="text-align:center; font-size:14px; color:#8892b0;">Data Entry Operator - Kurukshetra</p>
+    <form action="https://getform.io/f/G7rqsu5fdv6" method="POST" enctype="multipart/form-data">
+        <span class="label">FULL NAME</span>
+        <input type="text" name="Name" required>
+        <span class="label">EMAIL ADDRESS</span>
+        <input type="email" name="Email" required>
+        <span class="label">CONTACT NUMBER</span>
+        <input type="tel" name="Phone" required>
+        <span class="label">EXPECTED SALARY</span>
+        <input type="number" name="Salary" required>
+        <span class="label">UPLOAD RESUME</span>
+        <input type="file" name="Resume" accept=".pdf,.doc,.docx,image/*" required>
+        <button type="submit" class="btn">SUBMIT APPLICATION</button>
+    </form>
+    <div class="footer">
+        <strong>Constructive Reach</strong><br>
+        Amin Road Near Vita Boot, Kurukshetra<br>
+        Inquiries: 87087 53722 | 99967 59038
+    </div>
+</div>
+</body>
+</html>
